@@ -28,10 +28,12 @@ metadata:
         }
       ]
     capabilities: Basic Install
+    containerImage: quay.io/redhat-et-ipfs/ipfs-operator:v0.0.1
+    operatorframework.io/suggested-namespace: ipfs-operator-system
   name: ipfs-operator.v0.0.1
-  namespace: placeholder
 spec:
   apiservicedefinitions: {}
+  minKubeVersion: '1.16.0'
   customresourcedefinitions:
     owned:
     - description: CircuitRelay is the Schema for the circuitrelays API.
@@ -62,13 +64,7 @@ spec:
     type: MultiNamespace
   - supported: true
     type: AllNamespaces
-  keywords:
-  - IPFS
-  - IPFS Cluster
-  - Decentralized Storage
-  - peer-to-peer
-  - Distributed Hash Table
-  - Content-addressed
+  keywords: ['ipfs', 'ipfs cluster', 'decentralized storage', 'peer-to-peer', 'distributed hash table', 'content-addressed']
   links:
   - name: IPFS Operator GitHub page 
     url: https://github.com/ipfs-cluster/ipfs-operator
