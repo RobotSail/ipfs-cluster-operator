@@ -30,9 +30,9 @@ metadata:
     capabilities: Basic Install
     categories: Storage, Networking, Big Data
     containerImage: quay.io/redhat-et-ipfs/ipfs-operator:v0.0.1
+    createdAt: "2022-04-05T15:50:37-0400"
     operatorframework.io/suggested-namespace: ipfs-operator-system
     repository: https://github.com/ipfs-cluster/ipfs-operator
-    createdAt: 2022-04-05 15:50:37
   name: ipfs-operator.v0.0.1
 spec:
   apiservicedefinitions: {}
@@ -59,7 +59,7 @@ spec:
     * Specifying reprovider settings  
 
     ### Documentation 
-    Documentation can be found on our [GitHub repository](https://github.com/ipfs-cluster/ipfs-operator), as well as our read-the-docs page.
+    Documentation can be found on our [read-the-docs page](https://ipfs-operator.readthedocs.io/en/latest/), as well as our [GitHub repository](https://github.com/ipfs-cluster/ipfs-operator).
 
     ### Getting Help
     In case you run into issues while using the operator, please create an issue in our [GitHub
