@@ -29,7 +29,7 @@ metadata:
     operators.operatorframework.io/builder: operator-sdk-v1.22.0
     operators.operatorframework.io/project_layout: go.kubebuilder.io/v3
     repository: https://github.com/ipfs-cluster/ipfs-operator
-  name: ipfs-operator.v0.0.1
+  name: ipfs-operator.v0.0.2
 spec:
   apiservicedefinitions: {}
   customresourcedefinitions:
@@ -364,4 +364,4 @@ spec:
   minKubeVersion: 1.16.0
   provider:
     name: Protocol Labs
-  version: 0.0.1
+  version: 0.0.2
